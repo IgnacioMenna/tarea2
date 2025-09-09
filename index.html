@@ -9,6 +9,7 @@
 </head>
 <body>
     <nav>
+        <button class="menu-toggle" aria-label="Abrir menú">☰</button>        
         <ul>
             <li><a href="#" style="color: #c00;">Clarin</a></li>
             <li><a href="#">Inicio</a></li>
@@ -77,5 +78,15 @@
         <p>Fuente: <a href="https://www.clarin.com/deportes/gianni-infantino-presidente-fifa-pide-sanciones-ejemplificadoras-incidentes-independiente-vs-universidad-chile_0_ocpvFLMpsJ.html" target="_blank">Diario Clarín</a></p>
         <p>&copy; 2025 Noticias Deportivas</p>
     </footer>
+
+    <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navUl = document.querySelector('nav ul');
+
+    toggle.addEventListener('click', () => {
+        navUl.classList.toggle('open');
+    });
+</script>
+
 </body>
 </html>

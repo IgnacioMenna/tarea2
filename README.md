@@ -1,1 +1,3 @@
 Link De La Noticia: https://www.clarin.com/deportes/gianni-infantino-presidente-fifa-pide-sanciones-ejemplificadoras-incidentes-independiente-vs-universidad-chile_0_ocpvFLMpsJ.html
+
+Github Pages: https://ignaciomenna.github.io/tarea2/
